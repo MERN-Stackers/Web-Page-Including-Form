@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+
+<body>
+    <div id="sectionPopularbooks" class="store">
+        <h1 class="popular">Popular Book</h1>
+        <div id="sectionWings" class="wings d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="kalam" alt="" />
+            <div class="fire">
+                <h1 class="wings-fire">Wings of Fire</h1>
+                <p class="auto">An Autobiograph of <br />Abdul Kalam</p>
+                <p class="arun">by Arun Tiwari</p>
+                <button class="btn btn-primary" onclick="display('sectionfire')">Read Now</button>
+            </div>
+        </div>
+        <h1 class="Recommended">Recommended Books</h1>
+        <div class="d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="chetan" alt="" />
+            <div class="fire">
+                <h1 class="mistakes">The 3 mistakes of my life</h1>
+                <p class="indian">Indian author by Chetan Bhagat</p>
+                <button class="btn btn-primary" onclick="display('sectionMistakes')">Read Now</button>
+            </div>
+        </div>
+        <br />
+        <div class="d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="chetan" alt="" />
+            <div class="fire">
+                <h1 class="mistakes">Harry Potter</h1>
+                <p class="indian">and the Sorcerers Stone by J.K.Rowling</p>
+                <button class="btn btn-primary" onclick="display('sectionHarry')">Read Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfire">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="page2" alt="" />
+        <h1 class="heading">Wings of Fire</h1>
+        <p class="tiwari">by Arun Tiwari</p>
+        <p class="biography">The definitive biography of India's
+            most loved leader and scientist Aeronautical
+            engineer, rocket scientist, missile man,
+            visionary, teacher and the most inspiring head
+            of state in living memory - Avul Pakir Jainulabdeen Abdul Kalam was all these and more.</p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-warning" onclick="display('sectionPopularbooks')">Back</button>
+            <button class="btn btn-primary buy">Buy Now</button>
+        </div>
+    </div>
+    <div id="sectionMistakes">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="page2" alt="" />
+        <h1 class="heading">Wings of Fire</h1>
+        <p class="tiwari">by Arun Tiwari</p>
+        <p class="biography">The definitive biography of India's
+            most loved leader and scientist Aeronautical
+            engineer, rocket scientist, missile man,
+            visionary, teacher and the most inspiring head
+            of state in living memory - Avul Pakir Jainulabdeen Abdul Kalam was all these and more.</p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-warning" onclick="display('sectionPopularbooks')">Back</button>
+            <button class="btn btn-primary buy">Buy Now</button>
+        </div>
+    </div>
+    <div id="sectionHarry">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="page2" alt="" />
+        <h1 class="heading">Wings of Fire</h1>
+        <p class="tiwari">by Arun Tiwari</p>
+        <p class="biography">The definitive biography of India's
+            most loved leader and scientist Aeronautical
+            engineer, rocket scientist, missile man,
+            visionary, teacher and the most inspiring head
+            of state in living memory - Avul Pakir Jainulabdeen Abdul Kalam was all these and more.</p>
+        <div class="d-flex flex-row justify-content-center potter">
+            <button class="btn btn-warning" onclick="display('sectionPopularbooks')">Back</button>
+            <button class="btn btn-primary buy">Buy Now</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
